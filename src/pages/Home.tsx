@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import FounderSection from '../components/FounderSection';
+import ChildBenefits from '../components/ChildBenefits';
 
 export default function Home() {
   return (
@@ -9,14 +10,14 @@ export default function Home() {
       <div 
         className="h-screen bg-cover bg-center relative"
         style={{
-          backgroundImage: "url('https://scontent.fmab1-1.fna.fbcdn.net/v/t39.30808-6/317686701_812158513535569_6818723085750289242_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEvLzKDBscENxIk8ad0dX0wIw7Jt2QzyUMjDsm3ZDPJQwGt66AMoFLBTFtHDXJyNNtmZ7RUZ0PVL5SkyGQkHlrk&_nc_ohc=oEAKcazdQtYQ7kNvgFtakNj&_nc_zt=23&_nc_ht=scontent.fmab1-1.fna&_nc_gid=AobV8077p6dysxu8d7M7UC7&oh=00_AYCZCzBphg_Lrq0ko2odvkzjBaqNO-oJAiOS-aiAl0JOlA&oe=676644BF')"
+          backgroundImage: "url('https://scontent.fmab1-1.fna.fbcdn.net/v/t51.75761-15/464254618_17955144236836054_6668139842122723727_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFcr1Zr2wPKVGs4_8ekrF1RMMmq7DiWyMUwyarsOJbIxVr1RR3ZzV32oYuFHSRakco5ecPqeKE5VY_8YeEvTiGl&_nc_ohc=vMFBIqlroTEQ7kNvgGEbFYp&_nc_oc=AdgW968W41SWs6dtI4A3Dyzp56oOY88hRukEgai_IL8ckvBFeNSWBQdBJaHAYLKR82GlUDPzx8cBfQ789J3UYoYJ&_nc_zt=23&_nc_ht=scontent.fmab1-1.fna&_nc_gid=AfAAm7YDod9yl-Dd5Qwoxas&oh=00_AYAbyzPHerxNxlPh4QbFGdfirz24b8Z_X8M64UG1sGt7ng&oe=676697AB')"
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50">
+        <div className="absolute inset-0 bg-black bg-opacity-80">
           <div className="max-w-7xl mx-auto px-4 h-full flex items-center">
             <div className="text-white">
               <h1 className="text-5xl md:text-6xl font-bold mb-4">
-                Domine a arte do jiu-jitsu brasileiro com a equipe vilhena jiu-jitsu
+                Domine a arte do jiu-jitsu brasileiro com a Equipe Vilhena jiu-jitsu
               </h1>
               <p className="text-xl mb-8">
               Junte-se à nossa academia e transforme sua vida através da disciplina, respeito e técnica
@@ -33,6 +34,7 @@ export default function Home() {
       </div>
       {/* Founder Section */}
       <FounderSection />
+      <ChildBenefits />
       {/* Features Section */}
       <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4">

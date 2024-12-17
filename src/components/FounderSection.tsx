@@ -6,8 +6,8 @@ export default function FounderSection() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold mb-6">Master Vilhena</h2>
-            <h3 className="text-xl text-red-600 font-semibold mb-4">Founder & Head Master</h3>
+            <h2 className="text-3xl font-bold mb-6">Mestre Jefferson Vilhena</h2>
+            <h3 className="text-xl text-red-600 font-semibold mb-4">Fundador</h3>
           <h3 className="mb-4">25 anos ensinando jiu-jitsu e ajudando a formar cidadãos de bem</h3>
             <p className="text-gray-600 mb-4">
             A Família em especial sua mãe sempre incentivou o professor <b>Jefferson Vilhena</b> a pratica de artes
@@ -19,7 +19,9 @@ export default function FounderSection() {
             da Arte Suave, no inicio com apenas quatro alunos, mas com o passar dos anos cada vez mais pessoas
             foram se matriculando e expandindo para outros municípios vizinhos em especial cidade de Parauapebas
             com a chegada do professor Islander Sousa que foi um dos grandes líderes da equipe.
-            </p>
+            </p> <br />
+            <p  className="text-gray-600 mb-4">Sob sua liderança, a equioe Vilhena produziu inúmeros campeões em todos os níveis de faixa e se expandiu globalmente, 
+              mantendo os mais altos padrões de excelência técnica e valores tradicionais de respeito, disciplina e perseverança.</p>
           </div>
           <div className="relative">
             <div className="absolute -inset-4 bg-red-600 rounded-lg transform rotate-2"></div>

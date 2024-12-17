@@ -1,11 +1,12 @@
-import React from 'react';
 import { instructors } from '../data';
 
 export default function Instructors() {
   return (
     <div className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-12">Our Instructors</h1>
+        <h1 className="text-4xl font-bold text-center mb-12">Nossos instrutores</h1>
+        <h3 className="text-4xl font-mediun text-center mb-12">Guiando com Paixão e Experiência no Caminho do Jiu-Jitsu</h3>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {instructors.map((instructor) => (
             <div key={instructor.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
